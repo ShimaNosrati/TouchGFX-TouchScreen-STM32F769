@@ -1,0 +1,1 @@
+stm32f769i_disco\disable_semihosting.o: disable_semihosting.c

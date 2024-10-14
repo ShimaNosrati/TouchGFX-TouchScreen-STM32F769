@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/blank_screen/BlankPresenter.hpp:28:13:BlankPresenter::~BlankPresenter()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:10:6:virtual void BlankPresenter::activate()	1
+../../TouchGFX/gui/include/gui/blank_screen/BlankPresenter.hpp:28:13:virtual BlankPresenter::~BlankPresenter()	1
+../../TouchGFX/gui/include/gui/blank_screen/BlankPresenter.hpp:28:13:virtual void* BlankPresenter::_ZThn4_N14BlankPresenterD1Ev()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:4:1:BlankPresenter::BlankPresenter(BlankView&)	1

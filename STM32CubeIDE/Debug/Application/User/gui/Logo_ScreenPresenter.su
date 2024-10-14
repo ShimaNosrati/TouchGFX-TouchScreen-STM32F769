@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/logo_screen_screen/Logo_ScreenPresenter.hpp:28:13:Logo_ScreenPresenter::~Logo_ScreenPresenter()	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/logo_screen_screen/Logo_ScreenPresenter.cpp:10:6:virtual void Logo_ScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/logo_screen_screen/Logo_ScreenPresenter.hpp:28:13:virtual Logo_ScreenPresenter::~Logo_ScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/logo_screen_screen/Logo_ScreenPresenter.hpp:28:13:virtual void* Logo_ScreenPresenter::_ZThn4_N20Logo_ScreenPresenterD1Ev()	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/logo_screen_screen/Logo_ScreenPresenter.cpp:4:1:Logo_ScreenPresenter::Logo_ScreenPresenter(Logo_ScreenView&)	0	static

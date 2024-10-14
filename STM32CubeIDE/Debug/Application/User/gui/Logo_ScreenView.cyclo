@@ -1,0 +1,7 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/logo_screen_screen/Logo_ScreenView.cpp:14:6:virtual void Logo_ScreenView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/logo_screen_screen/Logo_ScreenView.hpp:11:13:Logo_ScreenView::~Logo_ScreenView()	1
+../../TouchGFX/gui/include/gui/logo_screen_screen/Logo_ScreenView.hpp:11:13:virtual Logo_ScreenView::~Logo_ScreenView()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/logo_screen_screen/Logo_ScreenView.cpp:4:1:Logo_ScreenView::Logo_ScreenView()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/logo_screen_screen/Logo_ScreenView.cpp:9:6:virtual void Logo_ScreenView::setupScreen()	1
