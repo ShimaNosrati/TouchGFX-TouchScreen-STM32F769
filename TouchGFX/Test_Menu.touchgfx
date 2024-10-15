@@ -18,7 +18,7 @@
             "X": 324,
             "Y": 333,
             "Width": 153,
-            "Height": 40,
+            "Height": 48,
             "TextId": "__SingleUse_2QGG",
             "TextRotation": "0",
             "AutoSize": true
@@ -60,6 +60,17 @@
             "Width": 800,
             "Height": 480,
             "Filename": "__generated\\alternate_theme_images_containers_large_narrow_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_3",
+            "X": 26,
+            "Y": 357,
+            "Width": 127,
+            "Height": 123,
+            "Filename": "Icon.png",
+            "Alpha": 160,
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -118,7 +129,9 @@
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_VS01"
+              "TextId": "__SingleUse_VS01",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
           },
           {
@@ -132,7 +145,9 @@
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_74MD"
+              "TextId": "__SingleUse_74MD",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
           },
           {
@@ -184,7 +199,9 @@
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_4RG6"
+              "TextId": "__SingleUse_4RG6",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
           },
           {
@@ -198,8 +215,43 @@
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_L1I0"
+              "TextId": "__SingleUse_L1I0",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 306,
+            "Y": 418,
+            "Width": 55,
+            "Height": 52,
+            "Filename": "Icon.png",
+            "Alpha": 160,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_1",
+            "X": 153,
+            "Y": 406,
+            "Width": 75,
+            "Height": 74,
+            "Filename": "Icon.png",
+            "Alpha": 160,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_2",
+            "X": 218,
+            "Y": 339,
+            "Width": 104,
+            "Height": 93,
+            "Filename": "Icon.png",
+            "Alpha": 160,
+            "ScalingAlgorithm": "Nearest-neighbor"
           }
         ],
         "Interactions": [
@@ -227,6 +279,28 @@
             "Width": 800,
             "Height": 480,
             "Filename": "__generated\\alternate_theme_images_containers_large_narrow_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_3",
+            "X": 655,
+            "Y": 311,
+            "Width": 133,
+            "Height": 139,
+            "Filename": "Icon.png",
+            "Alpha": 160,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_2",
+            "X": 558,
+            "Y": 385,
+            "Width": 97,
+            "Height": 95,
+            "Filename": "Icon.png",
+            "Alpha": 160,
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -293,21 +367,23 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea3",
+            "Name": "motorSpeed",
             "X": 38,
             "Y": 63,
-            "Width": 311,
+            "Width": 336,
             "Height": 48,
             "TextId": "__SingleUse_MAIG",
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_O6VV"
+              "TextId": "__SingleUse_O6VV",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
           },
           {
             "Type": "TextArea",
-            "Name": "textArea4",
+            "Name": "Direction",
             "X": 38,
             "Y": 136,
             "Width": 374,
@@ -316,12 +392,14 @@
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_JO5W"
+              "TextId": "__SingleUse_JO5W",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
           },
           {
             "Type": "TextArea",
-            "Name": "textArea5",
+            "Name": "inVolt",
             "X": 38,
             "Y": 208,
             "Width": 380,
@@ -330,12 +408,14 @@
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_RI8Y"
+              "TextId": "__SingleUse_RI8Y",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
           },
           {
             "Type": "TextArea",
-            "Name": "textArea5_1",
+            "Name": "outVolt",
             "X": 36,
             "Y": 285,
             "Width": 385,
@@ -344,7 +424,9 @@
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_OFAL"
+              "TextId": "__SingleUse_OFAL",
+              "UseBuffer": true,
+              "BufferSize": 20
             }
           },
           {
@@ -373,6 +455,28 @@
             "Height": 50,
             "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_dark.png",
             "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_action.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 374,
+            "Y": 403,
+            "Width": 75,
+            "Height": 77,
+            "Filename": "Icon.png",
+            "Alpha": 160,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_1",
+            "X": 439,
+            "Y": 320,
+            "Width": 119,
+            "Height": 120,
+            "Filename": "Icon.png",
+            "Alpha": 160,
+            "ScalingAlgorithm": "Nearest-neighbor"
           }
         ],
         "Interactions": [

@@ -50,9 +50,12 @@
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:46:6:void FrontendApplicationBase::gotoLogo_ScreenScreenNoTransitionImpl()	40	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	24	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:59:6:void FrontendApplicationBase::gotoMotorDataScreenCoverTransitionEastImpl()	48	static
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:72:6:void FrontendApplicationBase::gotoBlankScreenSlideTransitionEastImpl()	48	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:268:17:static touchgfx::LCD& touchgfx::HAL::lcd()	0	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:21:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	24	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:40:6:void FrontendApplicationBase::gotoLogo_ScreenScreenNoTransition()	0	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:53:6:void FrontendApplicationBase::gotoMotorDataScreenCoverTransitionEast()	0	static
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:66:6:void FrontendApplicationBase::gotoBlankScreenSlideTransitionEast()	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:64:6:void FrontendApplicationBase::gotoMotorDataScreenSlideTransitionEast()	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:77:6:void FrontendApplicationBase::gotoBlankScreenSlideTransitionEast()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/SlideTransition.hpp:47:5:touchgfx::SlideTransition<templateDirection>::SlideTransition(uint8_t) [with touchgfx::Direction templateDirection = touchgfx::EAST]	32	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:83:6:void FrontendApplicationBase::gotoBlankScreenSlideTransitionEastImpl()	32	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:70:6:void FrontendApplicationBase::gotoMotorDataScreenSlideTransitionEastImpl()	32	static

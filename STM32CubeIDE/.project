@@ -755,6 +755,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_Back2.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_Icon.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_Icon.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_LOGO.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_LOGO.cpp</locationURI>

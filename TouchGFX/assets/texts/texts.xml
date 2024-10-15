@@ -25,7 +25,7 @@
         <Translation Language="GB">Direction: &lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_O6VV" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">0</Translation>
+        <Translation Language="GB">20</Translation>
       </Text>
       <Text Id="__SingleUse_MAIG" Alignment="Left" TypographyId="Large">
         <Translation Language="GB">Motor Speed: &lt;value&gt;</Translation>

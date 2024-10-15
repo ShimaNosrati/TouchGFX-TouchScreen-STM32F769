@@ -18,8 +18,9 @@ const uint16_t BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED
 const uint16_t BITMAP_BACK_ID = 9;
 const uint16_t BITMAP_BACK1_ID = 10;
 const uint16_t BITMAP_BACK2_ID = 11;
-const uint16_t BITMAP_LOGO_ID = 12;
-const uint16_t BITMAP_NEXT_ID = 13;
+const uint16_t BITMAP_ICON_ID = 12;
+const uint16_t BITMAP_LOGO_ID = 13;
+const uint16_t BITMAP_NEXT_ID = 14;
 
 namespace BitmapDatabase
 {

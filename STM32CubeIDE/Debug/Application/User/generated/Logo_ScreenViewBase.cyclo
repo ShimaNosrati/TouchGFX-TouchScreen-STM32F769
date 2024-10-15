@@ -17,15 +17,14 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Logo_ScreenPresenter>::~View()	1
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:32:1:Logo_ScreenViewBase::~Logo_ScreenViewBase()	1
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:37:6:virtual void Logo_ScreenViewBase::setupScreen()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:33:1:Logo_ScreenViewBase::~Logo_ScreenViewBase()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:38:6:virtual void Logo_ScreenViewBase::setupScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Logo_ScreenPresenter>::~View()	1
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:32:1:virtual Logo_ScreenViewBase::~Logo_ScreenViewBase()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:33:1:virtual Logo_ScreenViewBase::~Logo_ScreenViewBase()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:42:6:virtual void Logo_ScreenViewBase::handleTickEvent()	2
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:43:6:virtual void Logo_ScreenViewBase::handleTickEvent()	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:36:7:touchgfx::Widget::Widget()	1
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/generated/gui_generated/src/logo_screen_screen/Logo_ScreenViewBase.cpp:9:1:Logo_ScreenViewBase::Logo_ScreenViewBase()	1

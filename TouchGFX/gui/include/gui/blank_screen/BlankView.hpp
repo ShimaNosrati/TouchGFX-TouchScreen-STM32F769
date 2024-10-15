@@ -11,7 +11,9 @@ public:
     virtual ~BlankView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void buttonPressed();
 protected:
+    bool isDirectionForward;  // Variable to store motor direction state
 };
 
 #endif // BLANKVIEW_HPP

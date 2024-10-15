@@ -47,14 +47,30 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::ScalableImage scalableImage1;
+    touchgfx::ScalableImage scalableImage2_3;
+    touchgfx::ScalableImage scalableImage2_2;
     touchgfx::Slider sliderVoltage;
     touchgfx::IconButtonStyle< touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  >  backButton;
-    touchgfx::TextAreaWithOneWildcard textArea3;
-    touchgfx::TextAreaWithOneWildcard textArea4;
-    touchgfx::TextAreaWithOneWildcard textArea5;
-    touchgfx::TextAreaWithOneWildcard textArea5_1;
+    touchgfx::TextAreaWithOneWildcard motorSpeed;
+    touchgfx::TextAreaWithOneWildcard Direction;
+    touchgfx::TextAreaWithOneWildcard inVolt;
+    touchgfx::TextAreaWithOneWildcard outVolt;
     touchgfx::Slider sliderSpeed;
     touchgfx::ToggleButton toggleButton1;
+    touchgfx::ScalableImage scalableImage2;
+    touchgfx::ScalableImage scalableImage2_1;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t MOTORSPEED_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar motorSpeedBuffer[MOTORSPEED_SIZE];
+    static const uint16_t DIRECTION_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar DirectionBuffer[DIRECTION_SIZE];
+    static const uint16_t INVOLT_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar inVoltBuffer[INVOLT_SIZE];
+    static const uint16_t OUTVOLT_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar outVoltBuffer[OUTVOLT_SIZE];
 
 private:
 

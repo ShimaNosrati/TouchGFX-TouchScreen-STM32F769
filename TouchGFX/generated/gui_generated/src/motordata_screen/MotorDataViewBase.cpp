@@ -21,6 +21,12 @@ MotorDataViewBase::MotorDataViewBase() :
     scalableImage1.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
     add(scalableImage1);
 
+    scalableImage2_3.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2_3.setPosition(26, 357, 127, 123);
+    scalableImage2_3.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2_3.setAlpha(160);
+    add(scalableImage2_3);
+
     nextButton.setBoxWithBorderPosition(0, 0, 77, 72);
     nextButton.setBorderSize(7);
     nextButton.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(250, 198, 10), touchgfx::Color::getColorFromRGB(51, 102, 153));
@@ -33,7 +39,8 @@ MotorDataViewBase::MotorDataViewBase() :
     textArea3.setXY(38, 63);
     textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea3.setLinespacing(0);
-    textArea3.setWildcard(touchgfx::TypedText(T___SINGLEUSE_VS01).getText());
+    Unicode::snprintf(textArea3Buffer, TEXTAREA3_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_VS01).getText());
+    textArea3.setWildcard(textArea3Buffer);
     textArea3.resizeToCurrentText();
     textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_DMYZ));
     add(textArea3);
@@ -41,7 +48,8 @@ MotorDataViewBase::MotorDataViewBase() :
     textArea4.setXY(38, 136);
     textArea4.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea4.setLinespacing(0);
-    textArea4.setWildcard(touchgfx::TypedText(T___SINGLEUSE_74MD).getText());
+    Unicode::snprintf(textArea4Buffer, TEXTAREA4_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_74MD).getText());
+    textArea4.setWildcard(textArea4Buffer);
     textArea4.resizeToCurrentText();
     textArea4.setTypedText(touchgfx::TypedText(T___SINGLEUSE_CG1S));
     add(textArea4);
@@ -67,7 +75,8 @@ MotorDataViewBase::MotorDataViewBase() :
     textArea5.setXY(38, 209);
     textArea5.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea5.setLinespacing(0);
-    textArea5.setWildcard(touchgfx::TypedText(T___SINGLEUSE_4RG6).getText());
+    Unicode::snprintf(textArea5Buffer, TEXTAREA5_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_4RG6).getText());
+    textArea5.setWildcard(textArea5Buffer);
     textArea5.resizeToCurrentText();
     textArea5.setTypedText(touchgfx::TypedText(T___SINGLEUSE_4ZH3));
     add(textArea5);
@@ -75,10 +84,29 @@ MotorDataViewBase::MotorDataViewBase() :
     textArea5_1.setXY(38, 281);
     textArea5_1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea5_1.setLinespacing(0);
-    textArea5_1.setWildcard(touchgfx::TypedText(T___SINGLEUSE_L1I0).getText());
+    Unicode::snprintf(textArea5_1Buffer, TEXTAREA5_1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_L1I0).getText());
+    textArea5_1.setWildcard(textArea5_1Buffer);
     textArea5_1.resizeToCurrentText();
     textArea5_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_1MDP));
     add(textArea5_1);
+
+    scalableImage2.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2.setPosition(306, 418, 55, 52);
+    scalableImage2.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2.setAlpha(160);
+    add(scalableImage2);
+
+    scalableImage2_1.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2_1.setPosition(153, 406, 75, 74);
+    scalableImage2_1.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2_1.setAlpha(160);
+    add(scalableImage2_1);
+
+    scalableImage2_2.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2_2.setPosition(218, 339, 104, 93);
+    scalableImage2_2.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2_2.setAlpha(160);
+    add(scalableImage2_2);
 }
 
 MotorDataViewBase::~MotorDataViewBase()

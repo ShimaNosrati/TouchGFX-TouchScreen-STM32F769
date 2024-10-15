@@ -31,6 +31,7 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::ScalableImage scalableImage1;
+    touchgfx::ScalableImage scalableImage2_3;
     touchgfx::IconButtonStyle< touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  >  nextButton;
     touchgfx::TextAreaWithOneWildcard textArea3;
     touchgfx::TextAreaWithOneWildcard textArea4;
@@ -38,6 +39,21 @@ protected:
     touchgfx::PainterRGB565Bitmap gauge1Painter;
     touchgfx::TextAreaWithOneWildcard textArea5;
     touchgfx::TextAreaWithOneWildcard textArea5_1;
+    touchgfx::ScalableImage scalableImage2;
+    touchgfx::ScalableImage scalableImage2_1;
+    touchgfx::ScalableImage scalableImage2_2;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEXTAREA3_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar textArea3Buffer[TEXTAREA3_SIZE];
+    static const uint16_t TEXTAREA4_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar textArea4Buffer[TEXTAREA4_SIZE];
+    static const uint16_t TEXTAREA5_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar textArea5Buffer[TEXTAREA5_SIZE];
+    static const uint16_t TEXTAREA5_1_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar textArea5_1Buffer[TEXTAREA5_1_SIZE];
 
 private:
 

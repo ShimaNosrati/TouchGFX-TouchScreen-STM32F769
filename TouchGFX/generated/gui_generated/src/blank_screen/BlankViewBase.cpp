@@ -20,6 +20,18 @@ BlankViewBase::BlankViewBase() :
     scalableImage1.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
     add(scalableImage1);
 
+    scalableImage2_3.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2_3.setPosition(655, 311, 133, 139);
+    scalableImage2_3.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2_3.setAlpha(160);
+    add(scalableImage2_3);
+
+    scalableImage2_2.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2_2.setPosition(558, 385, 97, 95);
+    scalableImage2_2.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2_2.setAlpha(160);
+    add(scalableImage2_2);
+
     sliderVoltage.setXY(437, 216);
     sliderVoltage.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_TRACK_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_FILLER_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_ROUND_LIGHT_ID));
     sliderVoltage.setupHorizontalSlider(16, 11, 0, 0, 300);
@@ -37,37 +49,41 @@ BlankViewBase::BlankViewBase() :
     backButton.setPosition(28, 385, 77, 72);
     add(backButton);
 
-    textArea3.setXY(38, 63);
-    textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    textArea3.setLinespacing(0);
-    textArea3.setWildcard(touchgfx::TypedText(T___SINGLEUSE_O6VV).getText());
-    textArea3.resizeToCurrentText();
-    textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_MAIG));
-    add(textArea3);
+    motorSpeed.setXY(38, 63);
+    motorSpeed.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    motorSpeed.setLinespacing(0);
+    Unicode::snprintf(motorSpeedBuffer, MOTORSPEED_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_O6VV).getText());
+    motorSpeed.setWildcard(motorSpeedBuffer);
+    motorSpeed.resizeToCurrentText();
+    motorSpeed.setTypedText(touchgfx::TypedText(T___SINGLEUSE_MAIG));
+    add(motorSpeed);
 
-    textArea4.setXY(38, 136);
-    textArea4.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    textArea4.setLinespacing(0);
-    textArea4.setWildcard(touchgfx::TypedText(T___SINGLEUSE_JO5W).getText());
-    textArea4.resizeToCurrentText();
-    textArea4.setTypedText(touchgfx::TypedText(T___SINGLEUSE_V3CN));
-    add(textArea4);
+    Direction.setXY(38, 136);
+    Direction.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    Direction.setLinespacing(0);
+    Unicode::snprintf(DirectionBuffer, DIRECTION_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_JO5W).getText());
+    Direction.setWildcard(DirectionBuffer);
+    Direction.resizeToCurrentText();
+    Direction.setTypedText(touchgfx::TypedText(T___SINGLEUSE_V3CN));
+    add(Direction);
 
-    textArea5.setXY(38, 208);
-    textArea5.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    textArea5.setLinespacing(0);
-    textArea5.setWildcard(touchgfx::TypedText(T___SINGLEUSE_RI8Y).getText());
-    textArea5.resizeToCurrentText();
-    textArea5.setTypedText(touchgfx::TypedText(T___SINGLEUSE_CUSX));
-    add(textArea5);
+    inVolt.setXY(38, 208);
+    inVolt.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    inVolt.setLinespacing(0);
+    Unicode::snprintf(inVoltBuffer, INVOLT_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_RI8Y).getText());
+    inVolt.setWildcard(inVoltBuffer);
+    inVolt.resizeToCurrentText();
+    inVolt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_CUSX));
+    add(inVolt);
 
-    textArea5_1.setXY(36, 285);
-    textArea5_1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    textArea5_1.setLinespacing(0);
-    textArea5_1.setWildcard(touchgfx::TypedText(T___SINGLEUSE_OFAL).getText());
-    textArea5_1.resizeToCurrentText();
-    textArea5_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_V4TA));
-    add(textArea5_1);
+    outVolt.setXY(36, 285);
+    outVolt.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    outVolt.setLinespacing(0);
+    Unicode::snprintf(outVoltBuffer, OUTVOLT_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_OFAL).getText());
+    outVolt.setWildcard(outVoltBuffer);
+    outVolt.resizeToCurrentText();
+    outVolt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_V4TA));
+    add(outVolt);
 
     sliderSpeed.setXY(437, 71);
     sliderSpeed.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_TRACK_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_FILLER_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_ROUND_LIGHT_ID));
@@ -81,6 +97,18 @@ BlankViewBase::BlankViewBase() :
     toggleButton1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_ON_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_OFF_DARK_ID));
     toggleButton1.setAction(buttonCallback);
     add(toggleButton1);
+
+    scalableImage2.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2.setPosition(374, 403, 75, 77);
+    scalableImage2.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2.setAlpha(160);
+    add(scalableImage2);
+
+    scalableImage2_1.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
+    scalableImage2_1.setPosition(439, 320, 119, 120);
+    scalableImage2_1.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    scalableImage2_1.setAlpha(160);
+    add(scalableImage2_1);
 }
 
 BlankViewBase::~BlankViewBase()
