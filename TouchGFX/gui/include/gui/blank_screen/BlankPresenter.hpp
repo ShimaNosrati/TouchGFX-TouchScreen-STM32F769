@@ -28,7 +28,8 @@ public:
     virtual ~BlankPresenter() {}
 
     virtual void saveDirectionButton(bool buttonState);
-
+    virtual void saveSpeedValue(int speedValue);
+    virtual void saveInVoltageValue(int voltageValue);
 private:
     BlankPresenter();
 

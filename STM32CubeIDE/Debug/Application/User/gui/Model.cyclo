@@ -2,3 +2,7 @@ D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:4:1:Mo
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	1
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:14:6:void Model::saveDirectionButton(bool)	1
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:19:6:bool Model::getDirectionButton()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:24:6:void Model::saveSpeedValue(int)	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:29:5:int Model::getSpeedValue()	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:34:6:void Model::saveInVoltageValue(int)	1
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:39:5:int Model::getInVoltageValue()	1

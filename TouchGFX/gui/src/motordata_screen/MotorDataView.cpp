@@ -15,7 +15,7 @@ void MotorDataView::tearDownScreen()
     MotorDataViewBase::tearDownScreen();
 }
 
-void MotorDataView::setDirection(bool buttonState)
+void MotorDataView::setValues(bool buttonState, int speedValue, int voltageValue)
 {
     if (buttonState)
     {
@@ -29,5 +29,21 @@ void MotorDataView::setDirection(bool buttonState)
         Unicode::snprintf(motorDirBuffer, MOTORDIR_SIZE, "Forward");
         motorDir.invalidate();  // Refresh the display
     }
+    Unicode::snprintf(motorSpdBuffer, MOTORSPD_SIZE, "%d", speedValue);
+    speedGuage.setValue(speedValue);
+    speedGuage.invalidate();
+    motorSpd.invalidate();
+    
+    
+
+
+    Unicode::snprintf(InVoltageBuffer, INVOLTAGE_SIZE, "%d", voltageValue);
+    InVoltage.invalidate();
+
+    Unicode::snprintf(OutVoltageBuffer, OUTVOLTAGE_SIZE, "%d", voltageValue - 2);
+    OutVoltage.invalidate();
+
+
     
 }
+

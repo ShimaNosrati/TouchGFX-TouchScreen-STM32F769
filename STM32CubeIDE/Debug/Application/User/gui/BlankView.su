@@ -1,8 +1,6 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
-../../TouchGFX/generated/gui_generated/include/gui_generated/blank_screen/BlankViewBase.hpp:27:18:virtual void BlankViewBase::speedSliderUpdated(int)	0	static
-../../TouchGFX/generated/gui_generated/include/gui_generated/blank_screen/BlankViewBase.hpp:31:18:virtual void BlankViewBase::voltageSliderUpdated(int)	0	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:13:6:virtual void BlankView::tearDownScreen()	0	static
 ../../TouchGFX/gui/include/gui/blank_screen/BlankView.hpp:11:13:BlankView::~BlankView()	8	static
 ../../TouchGFX/gui/include/gui/blank_screen/BlankView.hpp:11:13:virtual BlankView::~BlankView()	8	static
@@ -10,4 +8,8 @@ D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:3:1:BlankView::BlankView()	8	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:8:6:virtual void BlankView::setupScreen()	0	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:39:6:virtual void BlankView::setDirectionState(bool)	16	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:57:6:virtual void BlankView::speedSliderUpdated(int)	16	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:73:6:virtual void BlankView::voltageSliderUpdated(int)	16	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:18:6:virtual void BlankView::buttonPressed()	16	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:64:6:virtual void BlankView::setSpeedValue(int)	16	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankView.cpp:80:6:virtual void BlankView::setInVoltageValue(int)	16	static

@@ -61,15 +61,15 @@ void FrontendApplicationBase::gotoMotorDataScreenCoverTransitionEastImpl()
     touchgfx::makeTransition<MotorDataView, MotorDataPresenter, touchgfx::CoverTransition<EAST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-void FrontendApplicationBase::gotoMotorDataScreenSlideTransitionEast()
+void FrontendApplicationBase::gotoMotorDataScreenSlideTransitionWest()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoMotorDataScreenSlideTransitionEastImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoMotorDataScreenSlideTransitionWestImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotoMotorDataScreenSlideTransitionEastImpl()
+void FrontendApplicationBase::gotoMotorDataScreenSlideTransitionWestImpl()
 {
-    touchgfx::makeTransition<MotorDataView, MotorDataPresenter, touchgfx::SlideTransition<EAST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<MotorDataView, MotorDataPresenter, touchgfx::SlideTransition<WEST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
 // Blank

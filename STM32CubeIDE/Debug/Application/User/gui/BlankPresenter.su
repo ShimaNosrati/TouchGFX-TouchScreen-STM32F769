@@ -1,7 +1,9 @@
 ../../TouchGFX/gui/include/gui/blank_screen/BlankPresenter.hpp:28:13:BlankPresenter::~BlankPresenter()	0	static
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:15:6:virtual void BlankPresenter::deactivate()	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:17:6:virtual void BlankPresenter::deactivate()	0	static
 ../../TouchGFX/gui/include/gui/blank_screen/BlankPresenter.hpp:28:13:virtual BlankPresenter::~BlankPresenter()	8	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:10:6:virtual void BlankPresenter::activate()	16	static
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:20:6:virtual void BlankPresenter::saveDirectionButton(bool)	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:22:6:virtual void BlankPresenter::saveDirectionButton(bool)	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:27:6:virtual void BlankPresenter::saveSpeedValue(int)	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:32:6:virtual void BlankPresenter::saveInVoltageValue(int)	0	static
 ../../TouchGFX/gui/include/gui/blank_screen/BlankPresenter.hpp:28:13:virtual void* BlankPresenter::_ZThn4_N14BlankPresenterD1Ev()	0	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/blank_screen/BlankPresenter.cpp:4:1:BlankPresenter::BlankPresenter(BlankView&)	0	static

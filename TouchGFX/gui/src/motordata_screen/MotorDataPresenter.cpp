@@ -9,7 +9,7 @@ MotorDataPresenter::MotorDataPresenter(MotorDataView& v)
 
 void MotorDataPresenter::activate()
 {
-    view.setDirection(model->getDirectionButton());
+    view.setValues(model->getDirectionButton(), model->getSpeedValue(), model->getInVoltageValue());
 }
 
 void MotorDataPresenter::deactivate()

@@ -26,7 +26,7 @@ public:
     // MotorData
     void gotoMotorDataScreenCoverTransitionEast();
 
-    void gotoMotorDataScreenSlideTransitionEast();
+    void gotoMotorDataScreenSlideTransitionWest();
 
     // Blank
     void gotoBlankScreenSlideTransitionEast();
@@ -42,7 +42,7 @@ protected:
     // MotorData
     void gotoMotorDataScreenCoverTransitionEastImpl();
 
-    void gotoMotorDataScreenSlideTransitionEastImpl();
+    void gotoMotorDataScreenSlideTransitionWestImpl();
 
     // Blank
     void gotoBlankScreenSlideTransitionEastImpl();

@@ -11,8 +11,15 @@ public:
     virtual ~BlankView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
     virtual void buttonPressed();
     virtual void setDirectionState(bool state);
+
+    virtual void speedSliderUpdated(int value);
+    virtual void setSpeedValue(int speedValue);
+
+    virtual void voltageSliderUpdated(int value);
+    virtual void setVoltageValue(int voltageValue);
 protected:
     bool isDirectionForward;  // Variable to store motor direction state
 };

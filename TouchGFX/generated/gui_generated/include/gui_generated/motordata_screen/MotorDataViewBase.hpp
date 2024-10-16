@@ -35,8 +35,8 @@ protected:
     touchgfx::IconButtonStyle< touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  >  nextButton;
     touchgfx::TextAreaWithOneWildcard motorSpd;
     touchgfx::TextAreaWithOneWildcard motorDir;
-    touchgfx::Gauge gauge1;
-    touchgfx::PainterRGB565Bitmap gauge1Painter;
+    touchgfx::Gauge speedGuage;
+    touchgfx::PainterRGB565Bitmap speedGuagePainter;
     touchgfx::TextAreaWithOneWildcard InVoltage;
     touchgfx::TextAreaWithOneWildcard OutVoltage;
     touchgfx::ScalableImage scalableImage2;

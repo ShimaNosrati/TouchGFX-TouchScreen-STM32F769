@@ -85,7 +85,7 @@ BlankViewBase::BlankViewBase() :
     outVolt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_V4TA));
     add(outVolt);
 
-    sliderSpeed.setXY(437, 71);
+    sliderSpeed.setXY(437, 63);
     sliderSpeed.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_TRACK_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_FILLER_MEDIUM_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_SLIDER_HORIZONTAL_THICK_ROUND_LIGHT_ID));
     sliderSpeed.setupHorizontalSlider(16, 11, 0, 0, 300);
     sliderSpeed.setValueRange(0, 100);
@@ -127,8 +127,8 @@ void BlankViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonCont
     {
         //Interaction1
         //When backButton clicked change screen to MotorData
-        //Go to MotorData with screen transition towards East
-        application().gotoMotorDataScreenSlideTransitionEast();
+        //Go to MotorData with screen transition towards West
+        application().gotoMotorDataScreenSlideTransitionWest();
     }
 }
 

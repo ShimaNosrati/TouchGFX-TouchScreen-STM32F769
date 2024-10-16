@@ -16,7 +16,7 @@ KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
     18, // T___SINGLEUSE_CUSX: "Input Voltage: <>"
     63, // T___SINGLEUSE_JO5W: "Forward"
     50, // T___SINGLEUSE_V3CN: "Direction: <>"
-    93, // T___SINGLEUSE_O6VV: "20"
+    78, // T___SINGLEUSE_O6VV: "100"
     35, // T___SINGLEUSE_MAIG: "Motor Speed: <>"
     86, // T___SINGLEUSE_L1I0: "48V"
     0,  // T___SINGLEUSE_1MDP: "Output Voltage: <>"

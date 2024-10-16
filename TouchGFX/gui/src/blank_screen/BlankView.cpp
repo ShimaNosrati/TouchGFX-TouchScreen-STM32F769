@@ -53,3 +53,39 @@ void BlankView::setDirectionState(bool buttonState)
     }
     
 }
+
+void BlankView::speedSliderUpdated(int value)
+{
+    presenter->saveSpeedValue(value);
+    Unicode::snprintf(motorSpeedBuffer, MOTORSPEED_SIZE, "%d", value);
+    motorSpeed.invalidate();
+
+}
+void BlankView::setSpeedValue(int speedValue)
+{
+    sliderSpeed.setValue(speedValue);
+    Unicode::snprintf(motorSpeedBuffer, MOTORSPEED_SIZE, "%d", speedValue);
+    motorSpeed.invalidate();
+    sliderSpeed.invalidate();
+    
+}
+
+void BlankView::voltageSliderUpdated(int value)
+{
+    presenter->saveInVoltageValue(value);
+    Unicode::snprintf(inVoltBuffer, INVOLT_SIZE, "%d", value);
+    Unicode::snprintf(outVoltBuffer, OUTVOLT_SIZE, "%d", value - 2);
+    inVolt.invalidate();   
+    outVolt.invalidate();
+}
+
+void BlankView::setVoltageValue(int voltageValue)
+{
+    sliderVoltage.setValue(voltageValue);
+    Unicode::snprintf(inVoltBuffer, INVOLT_SIZE, "%d", voltageValue);
+    Unicode::snprintf(outVoltBuffer, OUTVOLT_SIZE, "%d", voltageValue - 2);
+    inVolt.invalidate();
+    outVolt.invalidate();
+    sliderVoltage.invalidate();
+    
+}

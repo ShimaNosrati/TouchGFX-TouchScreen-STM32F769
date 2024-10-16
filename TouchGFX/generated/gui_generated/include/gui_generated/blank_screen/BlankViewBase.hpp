@@ -63,7 +63,7 @@ protected:
     /*
      * Wildcard Buffers
      */
-    static const uint16_t MOTORSPEED_SIZE = 20;
+    static const uint16_t MOTORSPEED_SIZE = 21;
     touchgfx::Unicode::UnicodeChar motorSpeedBuffer[MOTORSPEED_SIZE];
     static const uint16_t DIRECTION_SIZE = 20;
     touchgfx::Unicode::UnicodeChar DirectionBuffer[DIRECTION_SIZE];

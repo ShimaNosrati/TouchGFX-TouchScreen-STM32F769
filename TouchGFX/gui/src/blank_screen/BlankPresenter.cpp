@@ -10,6 +10,8 @@ BlankPresenter::BlankPresenter(BlankView& v)
 void BlankPresenter::activate()
 {
     view.setDirectionState(model->getDirectionButton());
+    view.setSpeedValue(model->getSpeedValue());
+    view.setVoltageValue(model->getInVoltageValue());
 }
 
 void BlankPresenter::deactivate()
@@ -20,4 +22,14 @@ void BlankPresenter::deactivate()
 void BlankPresenter::saveDirectionButton(bool buttonState)
 {
     model->saveDirectionButton(buttonState);
+}
+
+void BlankPresenter::saveSpeedValue(int speedValue)
+{
+    model->saveSpeedValue(speedValue);
+}
+
+void BlankPresenter::saveInVoltageValue(int voltageValue)
+{
+    model->saveInVoltageValue(voltageValue);
 }

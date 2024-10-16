@@ -6,4 +6,4 @@ D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/Motor
 ../../TouchGFX/gui/include/gui/motordata_screen/MotorDataView.hpp:11:13:virtual MotorDataView::~MotorDataView()	8	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataView.cpp:3:1:MotorDataView::MotorDataView()	8	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataView.cpp:8:6:virtual void MotorDataView::setupScreen()	0	static
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataView.cpp:18:6:virtual void MotorDataView::setDirection(bool)	8	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataView.cpp:18:6:virtual void MotorDataView::setValues(bool, int, int)	24	static

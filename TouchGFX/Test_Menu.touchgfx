@@ -152,7 +152,7 @@
           },
           {
             "Type": "Gauge",
-            "Name": "gauge1",
+            "Name": "speedGuage",
             "X": 546,
             "Y": 25,
             "Width": 184,
@@ -370,7 +370,7 @@
             "Name": "motorSpeed",
             "X": 38,
             "Y": 63,
-            "Width": 336,
+            "Width": 361,
             "Height": 48,
             "TextId": "__SingleUse_MAIG",
             "TextRotation": "0",
@@ -378,7 +378,7 @@
             "Wildcard1": {
               "TextId": "__SingleUse_O6VV",
               "UseBuffer": true,
-              "BufferSize": 20
+              "BufferSize": 21
             }
           },
           {
@@ -433,7 +433,7 @@
             "Type": "Slider",
             "Name": "sliderSpeed",
             "X": 437,
-            "Y": 71,
+            "Y": 63,
             "Width": 332,
             "Height": 32,
             "IsHorizontalSlider": true,
@@ -489,7 +489,7 @@
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionSlide",
-              "ScreenTransitionDirection": "East",
+              "ScreenTransitionDirection": "West",
               "ActionComponent": "MotorData"
             }
           },
