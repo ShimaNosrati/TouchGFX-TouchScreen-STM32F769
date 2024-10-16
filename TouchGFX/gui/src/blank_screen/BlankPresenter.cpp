@@ -9,10 +9,15 @@ BlankPresenter::BlankPresenter(BlankView& v)
 
 void BlankPresenter::activate()
 {
-
+    view.setDirectionState(model->getDirectionButton());
 }
 
 void BlankPresenter::deactivate()
 {
 
+}
+
+void BlankPresenter::saveDirectionButton(bool buttonState)
+{
+    model->saveDirectionButton(buttonState);
 }

@@ -27,6 +27,8 @@ public:
 
     virtual ~BlankPresenter() {}
 
+    virtual void saveDirectionButton(bool buttonState);
+
 private:
     BlankPresenter();
 

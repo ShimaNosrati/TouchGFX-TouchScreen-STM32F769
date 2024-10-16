@@ -14,8 +14,12 @@ public:
     }
 
     void tick();
+
+    void saveDirectionButton(bool buttonState);
+    bool getDirectionButton();
 protected:
     ModelListener* modelListener;
+    bool directionButtonState;
 };
 
 #endif // MODEL_HPP

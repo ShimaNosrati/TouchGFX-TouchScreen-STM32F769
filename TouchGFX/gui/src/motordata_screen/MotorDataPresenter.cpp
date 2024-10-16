@@ -9,7 +9,7 @@ MotorDataPresenter::MotorDataPresenter(MotorDataView& v)
 
 void MotorDataPresenter::activate()
 {
-
+    view.setDirection(model->getDirectionButton());
 }
 
 void MotorDataPresenter::deactivate()

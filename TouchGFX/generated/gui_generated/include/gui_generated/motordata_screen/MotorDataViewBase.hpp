@@ -33,12 +33,12 @@ protected:
     touchgfx::ScalableImage scalableImage1;
     touchgfx::ScalableImage scalableImage2_3;
     touchgfx::IconButtonStyle< touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  >  nextButton;
-    touchgfx::TextAreaWithOneWildcard textArea3;
-    touchgfx::TextAreaWithOneWildcard textArea4;
+    touchgfx::TextAreaWithOneWildcard motorSpd;
+    touchgfx::TextAreaWithOneWildcard motorDir;
     touchgfx::Gauge gauge1;
     touchgfx::PainterRGB565Bitmap gauge1Painter;
-    touchgfx::TextAreaWithOneWildcard textArea5;
-    touchgfx::TextAreaWithOneWildcard textArea5_1;
+    touchgfx::TextAreaWithOneWildcard InVoltage;
+    touchgfx::TextAreaWithOneWildcard OutVoltage;
     touchgfx::ScalableImage scalableImage2;
     touchgfx::ScalableImage scalableImage2_1;
     touchgfx::ScalableImage scalableImage2_2;
@@ -46,14 +46,14 @@ protected:
     /*
      * Wildcard Buffers
      */
-    static const uint16_t TEXTAREA3_SIZE = 20;
-    touchgfx::Unicode::UnicodeChar textArea3Buffer[TEXTAREA3_SIZE];
-    static const uint16_t TEXTAREA4_SIZE = 20;
-    touchgfx::Unicode::UnicodeChar textArea4Buffer[TEXTAREA4_SIZE];
-    static const uint16_t TEXTAREA5_SIZE = 20;
-    touchgfx::Unicode::UnicodeChar textArea5Buffer[TEXTAREA5_SIZE];
-    static const uint16_t TEXTAREA5_1_SIZE = 20;
-    touchgfx::Unicode::UnicodeChar textArea5_1Buffer[TEXTAREA5_1_SIZE];
+    static const uint16_t MOTORSPD_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar motorSpdBuffer[MOTORSPD_SIZE];
+    static const uint16_t MOTORDIR_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar motorDirBuffer[MOTORDIR_SIZE];
+    static const uint16_t INVOLTAGE_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar InVoltageBuffer[INVOLTAGE_SIZE];
+    static const uint16_t OUTVOLTAGE_SIZE = 20;
+    touchgfx::Unicode::UnicodeChar OutVoltageBuffer[OUTVOLTAGE_SIZE];
 
 private:
 

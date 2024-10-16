@@ -1,2 +1,4 @@
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	0	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:14:6:void Model::saveDirectionButton(bool)	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/model/Model.cpp:19:6:bool Model::getDirectionButton()	0	static

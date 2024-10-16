@@ -11,6 +11,7 @@ public:
     virtual ~MotorDataView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void setDirection(bool state);
 protected:
 };
 

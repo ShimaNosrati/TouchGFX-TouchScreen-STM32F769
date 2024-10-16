@@ -1,6 +1,6 @@
 #include <gui/blank_screen/BlankView.hpp>
 
-BlankView::BlankView() : isDirectionForward(true)  // Start with Forward direction
+BlankView::BlankView() : isDirectionForward(false)  // Start with Forward direction
 {
 
 }
@@ -17,22 +17,39 @@ void BlankView::tearDownScreen()
 
 void BlankView::buttonPressed()
 {
+
+    bool isDirectionForward = directionButton.getState();
+    presenter->saveDirectionButton(isDirectionForward);
     // Toggle motor direction
     if (isDirectionForward)
     {
         // Change direction to Reverse
-        // Unicode::snprintf(Direction, 20, "Direction: Reverse");
+        Unicode::snprintf(DirectionBuffer, DIRECTION_SIZE, "Reverse");
         Direction.invalidate();  // Refresh the display
-
-        isDirectionForward = false;  // Update the state
     }
     else
     {
         // Change direction to Forward
-        // Unicode::snprintf(Direction, 20, "Direction: Forward");
+        Unicode::snprintf(DirectionBuffer, DIRECTION_SIZE, "Forward");
         Direction.invalidate();  // Refresh the display
+    }
+    
+}
 
-        isDirectionForward = true;  // Update the state
+void BlankView::setDirectionState(bool buttonState)
+{
+    directionButton.forceState(buttonState);
+    if (buttonState)
+    {
+        // Change direction to Reverse
+        Unicode::snprintf(DirectionBuffer, DIRECTION_SIZE, "Reverse");
+        Direction.invalidate();  // Refresh the display
+    }
+    else
+    {
+        // Change direction to Forward
+        Unicode::snprintf(DirectionBuffer, DIRECTION_SIZE, "Forward");
+        Direction.invalidate();  // Refresh the display
     }
     
 }

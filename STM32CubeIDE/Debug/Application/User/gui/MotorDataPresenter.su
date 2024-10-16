@@ -1,5 +1,6 @@
 ../../TouchGFX/gui/include/gui/motordata_screen/MotorDataPresenter.hpp:28:13:MotorDataPresenter::~MotorDataPresenter()	0	static
-D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataPresenter.cpp:10:6:virtual void MotorDataPresenter::activate()	0	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataPresenter.cpp:15:6:virtual void MotorDataPresenter::deactivate()	0	static
 ../../TouchGFX/gui/include/gui/motordata_screen/MotorDataPresenter.hpp:28:13:virtual MotorDataPresenter::~MotorDataPresenter()	8	static
+D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataPresenter.cpp:10:6:virtual void MotorDataPresenter::activate()	16	static
 ../../TouchGFX/gui/include/gui/motordata_screen/MotorDataPresenter.hpp:28:13:virtual void* MotorDataPresenter::_ZThn4_N18MotorDataPresenterD1Ev()	0	static
 D:/Projects/Daneshgar/TouchGFX/Test_Menu/TouchGFX/gui/src/motordata_screen/MotorDataPresenter.cpp:4:1:MotorDataPresenter::MotorDataPresenter(MotorDataView&)	0	static

@@ -12,6 +12,7 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
     virtual void buttonPressed();
+    virtual void setDirectionState(bool state);
 protected:
     bool isDirectionForward;  // Variable to store motor direction state
 };

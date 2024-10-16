@@ -93,10 +93,10 @@ BlankViewBase::BlankViewBase() :
     sliderSpeed.setNewValueCallback(sliderValueChangedCallback);
     add(sliderSpeed);
 
-    toggleButton1.setXY(437, 135);
-    toggleButton1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_ON_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_OFF_DARK_ID));
-    toggleButton1.setAction(buttonCallback);
-    add(toggleButton1);
+    directionButton.setXY(437, 135);
+    directionButton.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_ON_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_OFF_DARK_ID));
+    directionButton.setAction(buttonCallback);
+    add(directionButton);
 
     scalableImage2.setBitmap(touchgfx::Bitmap(BITMAP_ICON_ID));
     scalableImage2.setPosition(374, 403, 75, 77);
@@ -152,10 +152,10 @@ void BlankViewBase::sliderValueChangedCallbackHandler(const touchgfx::Slider& sr
 
 void BlankViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
-    if (&src == &toggleButton1)
+    if (&src == &directionButton)
     {
         //Interaction4
-        //When toggleButton1 clicked call virtual function
+        //When directionButton clicked call virtual function
         //Call buttonPressed
         buttonPressed();
     }

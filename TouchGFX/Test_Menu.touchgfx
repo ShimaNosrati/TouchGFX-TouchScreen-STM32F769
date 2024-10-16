@@ -120,7 +120,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea3",
+            "Name": "motorSpd",
             "X": 38,
             "Y": 63,
             "Width": 361,
@@ -136,7 +136,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea4",
+            "Name": "motorDir",
             "X": 38,
             "Y": 136,
             "Width": 374,
@@ -190,7 +190,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea5",
+            "Name": "InVoltage",
             "X": 38,
             "Y": 209,
             "Width": 380,
@@ -206,9 +206,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea5_1",
+            "Name": "OutVoltage",
             "X": 38,
-            "Y": 281,
+            "Y": 282,
             "Width": 410,
             "Height": 48,
             "TextId": "__SingleUse_1MDP",
@@ -448,7 +448,7 @@
           },
           {
             "Type": "ToggleButton",
-            "Name": "toggleButton1",
+            "Name": "directionButton",
             "X": 437,
             "Y": 135,
             "Width": 110,
@@ -519,7 +519,7 @@
             "InteractionName": "Interaction4",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "toggleButton1"
+              "TriggerComponent": "directionButton"
             },
             "Action": {
               "Type": "ActionCustom",

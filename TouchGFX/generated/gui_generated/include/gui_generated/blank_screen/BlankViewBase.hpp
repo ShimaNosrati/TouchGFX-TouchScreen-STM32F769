@@ -56,7 +56,7 @@ protected:
     touchgfx::TextAreaWithOneWildcard inVolt;
     touchgfx::TextAreaWithOneWildcard outVolt;
     touchgfx::Slider sliderSpeed;
-    touchgfx::ToggleButton toggleButton1;
+    touchgfx::ToggleButton directionButton;
     touchgfx::ScalableImage scalableImage2;
     touchgfx::ScalableImage scalableImage2_1;
 
